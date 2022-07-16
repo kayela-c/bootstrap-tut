@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/style.css"],"sourcesContent":[null],"names":[],"version":3,"file":"index.2cdaf7bc.css.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA;EACE","sources":["src/style.css"],"sourcesContent":["@media (min-width: 768px) {\n  .news-input  {\n    width: 50%;\n  }\n}\n\n"],"names":[],"version":3,"file":"index.2cdaf7bc.css.map","sourceRoot":"/__parcel_source_root/"}
