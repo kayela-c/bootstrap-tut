@@ -95,6 +95,38 @@ html(lang="en")
                     img.img-fluid(src="./assets/img/react.svg", alt="")
         //- question accordion
         section#questions.p-5
-
+            div.container
+                h2.text-center.mb-4 Frequently Asked Questions
+                div#questions.accordion.accordion-flush
+                    div.accordion-item
+                        h2#flush-heading-1.accordion-header
+                            button.accordion-button.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="question-1") Where exactly are you located?
+                        div#question-1.accordion-collapse.collapse(data-bs-parent="questions")
+                            .accordion-body.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, tenetur cumque. Placeat iure laudantium nisi. Ipsa, vero! Qui, magnam consectetur.
+                    div.accordion-item
+                        h2#flush-heading-2.accordion-header
+                            button.accordion-button.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="question-2") How much does it cost to attend?
+                        div#question-2.accordion-collapse.collapse(data-bs-parent="questions")
+                            .accordion-body.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, tenetur cumque. Placeat iure laudantium nisi. Ipsa, vero! Qui, magnam consectetur.
+                    div.accordion-item
+                        h2#flush-heading-3.accordion-header
+                            button.accordion-button.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="question-3") What do I need to know?
+                        div#question-3.accordion-collapse.collapse(data-bs-parent="questions")
+                            .accordion-body.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, tenetur cumque. Placeat iure laudantium nisi. Ipsa, vero! Qui, magnam consectetur.
+                    div.accordion-item
+                        h2#flush-heading-4.accordion-header
+                            button.accordion-button.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="question-4") How do I sign up?
+                        div#question-4.accordion-collapse.collapse(data-bs-parent="questions")
+                            .accordion-body.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, tenetur cumque. Placeat iure laudantium nisi. Ipsa, vero! Qui, magnam consectetur.
+                    div.accordion-item
+                        h2#flush-heading-4.accordion-header
+                            button.accordion-button.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="question-5") Do you help me find a job?
+                        div#question-4.accordion-collapse.collapse(data-bs-parent="questions")
+                            .accordion-body.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, tenetur cumque. Placeat iure laudantium nisi. Ipsa, vero! Qui, magnam consectetur.
         script(type="module" src="./assets/js/main.js")
 
