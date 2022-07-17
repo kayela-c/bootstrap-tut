@@ -1,6 +1,15 @@
 
 @import "./abstracts/_variables.scss";
+//create own map
+//@import "./abstracts/custom-bs"
+@import "~/bootstrap/scss/functions";
+@import "~/bootstrap/scss/maps";
+@import "~/bootstrap/scss/mixins";
+
+
+//merge the maps
 @import "~bootstrap/scss/bootstrap";
+
 
 body::before {
     display: block;
