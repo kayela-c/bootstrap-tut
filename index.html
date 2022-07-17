@@ -17,7 +17,11 @@
       integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo"
       crossorigin="anonymous"
     />
-
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
     <title>Frontend Bootcamp</title>
   </head>
   <body>
@@ -522,7 +526,8 @@
         center: [-71.060982, 42.35725],
         zoom: 18,
       })
+
+      map.addControl(new mapboxgl.NavigationControl())
     </script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
   </body>
 </html>
