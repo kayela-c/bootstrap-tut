@@ -7,7 +7,8 @@ html(lang="en")
         link(rel="stylesheet", href="./assets/scss/main.css")
         title Frontend Bootcamp
         link(rel="stylesheet", href="./assets/scss/main.scss")
-        link(href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet")
+        link(href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js")
+        link(href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css")
 
     body 
         nav.navbar.navbar-expand-lg.bg-dark.navbar-dark.fixed-top
@@ -228,15 +229,6 @@ html(lang="en")
                     .modal-footer
                         button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Close
                         button.btn.btn-primary(type="button") Submit
-
-        //- script(src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js")
-        //- script(src="")mapboxgl.accessToken = 'pk.eyJ1IjoiaGFyZWluZmVybm8iLCJhIjoiY2tnbGFhbGk2MDB4aTJ5bnVhaWhkdWxwbSJ9.H-4AVylWWGLlgtz89ll1Aw';
-        //- var map = new mapboxgl.Map({
-        //-     container: 'map',
-        //-     style: 'mapbox://styles/mapbox/streets-v11'
-        //-     center: [-71.060982, 42.35725],
-        //-     zoom: 18,
-        //- });
     
         script(type="module" src="./assets/js/main.js")
         
