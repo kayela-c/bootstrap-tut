@@ -9,8 +9,8 @@ html(lang="en")
         link(rel="stylesheet", href="./assets/scss/main.scss")
 
     body 
-        nav.navbar.navbar-expand-lg.bg-dark.navbar-dark 
-            .container.py-3
+        nav.navbar.navbar-expand-lg.bg-dark.navbar-dark.fixed-top
+            div.container.py-3
                 a.navbar-brand(href="#") Frontend Bootcamp
                 button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navmenu")
                     span.navbar-toggler-icon
@@ -95,6 +95,6 @@ html(lang="en")
                     img.img-fluid(src="./assets/img/react.svg", alt="")
         //- question accordion
         section#questions.p-5
-            
+
         script(type="module" src="./assets/js/main.js")
 
