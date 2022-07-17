@@ -1,0 +1,11 @@
+@import url(./abstracts/_variables.scss);
+body::before {
+  display: block;
+  content: " ";
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}/*# sourceMappingURL=main.css.map */

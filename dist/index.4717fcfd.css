@@ -11952,4 +11952,15 @@ textarea.form-control-lg {
   }
 }
 
+body:before {
+  content: " ";
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
 /*# sourceMappingURL=index.4717fcfd.css.map */
