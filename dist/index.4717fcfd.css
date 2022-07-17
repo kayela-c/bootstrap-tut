@@ -11963,4 +11963,10 @@ body:before {
   }
 }
 
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=index.4717fcfd.css.map */
