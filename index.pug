@@ -7,6 +7,7 @@ html(lang="en")
         link(rel="stylesheet", href="./assets/scss/main.css")
         title Frontend Bootcamp
         link(rel="stylesheet", href="./assets/scss/main.scss")
+        link(href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet")
 
     body 
         nav.navbar.navbar-expand-lg.bg-dark.navbar-dark.fixed-top
@@ -128,5 +129,82 @@ html(lang="en")
                         div#question-4.accordion-collapse.collapse(data-bs-parent="questions")
                             .accordion-body.
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, tenetur cumque. Placeat iure laudantium nisi. Ipsa, vero! Qui, magnam consectetur.
+        section#instructors.p-5.bg-primary
+            div.container
+                h2.text-center.text-white Our Instructors
+                p.lead.text-center.text-white.mb-5.
+                    Our Instructors all have 5+ years working as a web developer in the industry.
+                div.row.g-4
+                    div.col-md-6.col-lg-3
+                        .card.bg-light  
+                            div.card-body.text-center
+                                img.rounded-circle.mb-3(src="https://randomuser.me/api/portraits/women/9.jpg", alt="")
+                                h3.card-title.mb-3 Jane Doe 
+                                p.card-text Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa illum reprehenderit aperiam, molestiae ratione.
+                                a.i.bi.bi-twitter.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-facebook.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-linkedin.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-instagram.text-dark.mx-1(href="#") 
+                    div.col-md-6.col-lg-3
+                        .card.bg-light  
+                            div.card-body.text-center
+                                img.rounded-circle.mb-3(src="https://randomuser.me/api/portraits/men/11.jpg", alt="")
+                                h3.card-title.mb-3 John Doe 
+                                p.card-text Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa illum reprehenderit aperiam, molestiae ratione.
+                                a.i.bi.bi-twitter.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-facebook.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-linkedin.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-instagram.text-dark.mx-1(href="#") 
+                    div.col-md-6.col-lg-3
+                        .card.bg-light  
+                            div.card-body.text-center
+                                img.rounded-circle.mb-3(src="https://randomuser.me/api/portraits/women/14.jpg", alt="")
+                                h3.card-title.mb-3 Jill Doe 
+                                p.card-text Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa illum reprehenderit aperiam, molestiae ratione.
+                                a.i.bi.bi-twitter.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-facebook.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-linkedin.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-instagram.text-dark.mx-1(href="#") 
+                    div.col-md-6.col-lg-3
+                        .card.bg-light  
+                            div.card-body.text-center
+                                img.rounded-circle.mb-3(src="https://randomuser.me/api/portraits/men/8.jpg", alt="")
+                                h3.card-title.mb-3 Bob Doe 
+                                p.card-text Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa illum reprehenderit aperiam, molestiae ratione.
+                                a.i.bi.bi-twitter.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-facebook.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-linkedin.text-dark.mx-1(href="#") 
+                                a.i.bi.bi-instagram.text-dark.mx-1(href="#") 
+        section.p-5
+            .container
+                .row.g-4
+                    .col-md
+                        h2.text-center.mb-f Contact Info
+                        ul.list-group.list-group-flush.lead
+                            li.list-group-item
+                                span.fw-bold Main Location: 
+                                p 50 Main st Boston, MA 
+                            li.list-group-item
+                                span.fw-bold Enrollment Phone: 
+                                p (333) 333-3333
+                            li.list-group-item
+                                span.fw-bold Student Phone: 
+                                p (333) 333-3333
+                            li.list-group-item
+                                span.fw-bold Enrollment Email: 
+                                p enroll@frontendbc.test 
+                            li.list-group-item
+                                span.fw-bold Student Email: 
+                                p student@frontendbc.test 
+                    .col-md
+                        div#map(style='width: 400px; height: 300px;')
+        script(src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js")
+        script(src="")mapboxgl.accessToken = 'pk.eyJ1IjoiaGFyZWluZmVybm8iLCJhIjoiY2tnbGFhbGk2MDB4aTJ5bnVhaWhkdWxwbSJ9.H-4AVylWWGLlgtz89ll1Aw';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11'
+    center: [-71.060982, 42.35725],
+    zoom: 18,
+  });
         script(type="module" src="./assets/js/main.js")
 
